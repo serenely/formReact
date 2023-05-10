@@ -1,0 +1,62 @@
+.App {
+background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+small{
+  color: red;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+label{
+  display: block;
+}
+.input__form.invalid{
+  margin: 10px;
+color: red;
+}
+
+.input__form.invalid input{
+ border-color: red;
+}
+
+small{
+  color: red;
+}
+button{
+  cursor: pointer;
+  border-radius: 10px;
+  width: 80px;
+  height: 25px;
+}
+button:hover{
+  background-color: #9d9d9d;
+}
+input{
+  margin: 10px;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+form{
+  width: 350px;
+  min-height: 240px;
+  background-color:azure;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px;
+}
